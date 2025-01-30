@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String contra = "upq123";
+        String contra = "upq1233";
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Introduce la contraseña: ");
