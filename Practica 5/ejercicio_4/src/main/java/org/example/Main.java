@@ -10,7 +10,7 @@ public class Main {
 
         for (int i = 1; i <= altura; i++) {
             for (int j = i; j >= 1; j--) {
-                System.out.print(j + " ");
+                System.out.print(j + "  ");
             }
             System.out.println();
         }
