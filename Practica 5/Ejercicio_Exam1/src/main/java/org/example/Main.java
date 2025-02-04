@@ -22,14 +22,17 @@ public class Main {
                 System.out.println(fahrenheit + " Fahrenheit is " + celsius + " Celsius.");
                 break;
             }
-            case 4:{ }
-
+            case 2:{
+                System.out.println("Ingrese la Temperatura en Celsius");
+                double celsius = sc.nextDouble();
+                double fahrenheit = (celsius * 9 / 5) + 32;
+                System.out.println(celsius + " Celsius is " + fahrenheit + " Fahrenheit.");
+            }
             case 3: {
                 System.out.println("Ingrese la Temperatura en Celsius");
                 double celsius = sc.nextDouble();
                 double fahrenheit = (celsius * 9 / 5) + 32;
                 System.out.println(celsius + " Celsius is " + fahrenheit + " Fahrenheit.");
-
             }
             case 4: {
                 System.out.println("Ingrese la Temperatura en Kelvin");
