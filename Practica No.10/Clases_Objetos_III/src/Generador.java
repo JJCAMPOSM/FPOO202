@@ -42,7 +42,7 @@ public class Generador {
         for (char c : contraseña.toCharArray()) {
             if (Character.isUpperCase(c)) tieneMayus = true;
             if (Character.isDigit(c)) tieneNumeros = true;
-            if ("!@#$%^&*()-_=+<>?".contains(String.valueOf(c))) tieneEspeciales = true;
+            if ("!@#$%^&*()-_=+<>?.".contains(String.valueOf(c))) tieneEspeciales = true;
         }
 
         if (contraseña.length() < 10 || (!tieneMayus && !tieneNumeros && !tieneEspeciales)) {
