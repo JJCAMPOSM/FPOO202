@@ -11,7 +11,7 @@ public class Main {
 
         Cuentas usuario_1 = new Cuentas(noCuenta, titular, edad, saldo);
 
-        JOptionPane.showMessageDialog(null, "1)Detalles cuenta 2)Modificar datos 3)Consultar saldo 4)Actualizar saldo");
+        JOptionPane.showMessageDialog(null, "1)Detalles cuentas 2)Modificar datos 3)Consultar saldo 4)Actualizar saldo");
         int seleccion = Integer.parseInt(JOptionPane.showInputDialog(null, "Seleccione una opción:"));
 
         switch (seleccion) {
