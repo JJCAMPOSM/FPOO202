@@ -4,6 +4,6 @@ public class SpartanIII extends Spartan{
         super(nombre, salud, arma, 80);
 }
     public void camuflajeActivo(){
-        System.out.println(nombre + "Activo camuflaje para volverse invisible");
+        System.out.println(nombre + " Activo camuflaje para volverse invisible");
     }
 }

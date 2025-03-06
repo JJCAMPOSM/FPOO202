@@ -5,7 +5,7 @@ public class SpartanII extends Spartan{
     }
 
     public void usarManejoAvanzado(){
-        System.out.println(nombre + "Usa tacticas avanzadas y cuenta con mas Escudo");
+        System.out.println(nombre + " Usa tacticas avanzadas y cuenta con mas Escudo");
 
     }
 }
