@@ -11,7 +11,7 @@ public class Main {
             int opcion = JOptionPane.showOptionDialog(
                     null,
                     "Seleccione una opción",
-                    "Aplicación de entregas",
+                    "Transporte y Logística",
                     JOptionPane.YES_NO_CANCEL_OPTION,
                     JOptionPane.QUESTION_MESSAGE,
                     null,
