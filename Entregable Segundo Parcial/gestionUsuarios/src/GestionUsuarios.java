@@ -54,7 +54,7 @@ public class GestionUsuarios {
                 {"Nzola Uemo", "nzola@gmail.com", "Lagos, NG", "June 5, 2016", "Producción"},
                 {"Antony Mack", "mack@gmail.com", "London, ENG", "June 15, 2015", "Logística"},
                 {"Andre da Silva", "andre@gmail.com", "São Paulo, BR", "March 13, 2018", "Recursos Humanos"},
-                {"Jorge Ferreira", "jorge@gmail.com", "Huambo, Angola", "March 14, 2018", "Recursos Humanos"}
+                {"Jorge Ferreira", "jorge@gmail.comm", "Huambo, Angola", "March 14, 2018", "Recursos Humanos"}
         };
 
         DefaultTableModel tableModel = new DefaultTableModel(data, columnNames);
